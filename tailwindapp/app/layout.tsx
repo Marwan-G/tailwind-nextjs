@@ -23,7 +23,14 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
         {children}
 
         <footer
-            style={{backgroundColor: "#333", color: "#fff", padding: "10px", bottom: "0", width: "100%"}}>
+            style={{
+                backgroundColor: "#333",
+                color: "#fff",
+                padding: "10px",
+                bottom: "0",
+                width: "100%",
+                position: "fixed"
+            }}>
             <p>&copy; 2024 Your Company Name. All rights reserved.</p>
         </footer>
 
